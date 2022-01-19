@@ -1,5 +1,5 @@
 # JMP-Tools
-| [Description](#description) | [Current Tools](#current-tools) | [Tool Descriptions](#tool-descriptions) | [Todo](#genering-jmp-tools-todo) | [Disclaimer](#disclaimer-from-author)
+| [Description](#description) | [Current Tools](#current-tools) | [Tool Descriptions](#tool-descriptions) | [Todo](#generic-jmp-tools-todo) | [Disclaimer](#disclaimer-from-author)
 
 ## Description
 
@@ -105,7 +105,7 @@ List of current tools provided. By clicking the tool name you will be redirect t
 
 ![File Indexer](images/file_indexer.png)
 
-## Genering JMP-Tools todo
+## Generic JMP-Tools todo
  * Add help buttons to scripts
    * In best case this would open README.md files and parse them 
    * Could also maybe load markdown page from github / create help wiki there and use that?
