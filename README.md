@@ -18,6 +18,8 @@ Install Add-Ins from their own repositories. Most of the tools will be added und
 
 ![Cols Menu](images/menu_cols.png)
 
+Because there is no installer to install all of the tools at the same time, multiple folders will be created to addins folder and View/Add-Ins menu.
+
 Some of the tools also offer settings.json to change default behaviours. 
 
 ## Current Tools
