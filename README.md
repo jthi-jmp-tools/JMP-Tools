@@ -12,7 +12,9 @@ The repositories in [jthi-jmp-tools](https://github.com/jthi-jmp-tools) include 
 Most of the tools include README.md, README.html, settings.json, script files and the installation addin.
 
 ### Installation
-Install Add-Ins from their own repositories. Most of the tools will be added under JMP's Add-Ins menu in JMP-Tools but there are also exceptions, such as Order Selected Columns which will be added to Cols menu. 
+It is easiest to install addins from [this repository's releases page](https://github.com/jthi-jmp-tools/JMP-Tools/releases). Addin's can also be installed from each tools own repository or this repository's [addins folder](https://github.com/jthi-jmp-tools/JMP-Tools/tree/main/addins). To install them from non-release page, open the addin file then click download on the right side.
+
+Most of the tools will be added under JMP's Add-Ins menu in JMP-Tools but there are also exceptions, such as Order Selected Columns which will be added to Cols menu. 
 
 ![Add-Ins Menu](images/menu_addins.png)
 
