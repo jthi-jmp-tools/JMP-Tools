@@ -1,0 +1,81 @@
+<!-- JMP Add-In Builder created --><jm:menu_and_toolbar_customizations xmlns:jm="http://www.jmp.com/ns/menu" version="3">
+  <jm:insert_in_main_menu/>
+  <jm:toolbar>
+    <jm:name>JMP-TOOLS</jm:name>
+    <jm:caption>JMP-Tools</jm:caption>
+    <jm:command>
+      <jm:name>CREATE ORDER COLUMN</jm:name>
+      <jm:caption>Create Order Column</jm:caption>
+      <jm:action type="text">Names Default To Here(1);
+Include("$ADDIN_HOME(jthi.jmp.tools.create.order.column)/create_order_column_gui.jsl");</jm:action>
+      <jm:icon type="builtin">Ascending</jm:icon>
+    </jm:command>
+    <jm:command>
+      <jm:name>DELETE MISSING VALUE COLUMNS</jm:name>
+      <jm:caption>Delete Missing Value Columns</jm:caption>
+      <jm:action type="text">Names Default To Here(1);
+Include("$ADDIN_HOME(jthi.jmp.tools.delete.missing.value.columns)/delete_missing_value_columns_gui.jsl");</jm:action>
+      <jm:icon type="builtin">MissingData</jm:icon>
+    </jm:command>
+    <jm:command>
+      <jm:name>CHARACTER COLUMNS TO NUMERIC</jm:name>
+      <jm:caption>Character Columns to Numeric</jm:caption>
+      <jm:action type="text">Names Default To Here(1);
+Include("$ADDIN_HOME(jthi.jmp.tools.character.columns.to.numeric)/character_columns_to_numeric_gui.jsl");</jm:action>
+      <jm:icon type="builtin">NumericColumn</jm:icon>
+    </jm:command>
+    <jm:separator/>
+    <jm:command>
+      <jm:name>REPLACE X WITH Y</jm:name>
+      <jm:caption>Replace X with Y</jm:caption>
+      <jm:action type="text">Names Default To Here(1);
+Include("$ADDIN_HOME(jthi.jmp.tools.replace.x.with.y)/replace_x_with_y_gui.jsl");</jm:action>
+      <jm:icon type="builtin">DebuggerEditBreakpoint</jm:icon>
+    </jm:command>
+    <jm:command>
+      <jm:name>GET UNIQUE VALUES</jm:name>
+      <jm:caption>Get Unique Values</jm:caption>
+      <jm:action type="text">Names Default To Here(1);
+Include("$ADDIN_HOME(jthi.jmp.tools.get.unique.values)/get_unique_values_gui.jsl");</jm:action>
+      <jm:icon type="builtin">CompareData</jm:icon>
+    </jm:command>
+    <jm:separator/>
+    <jm:command>
+      <jm:name>FILL MISSING CELLS</jm:name>
+      <jm:caption>Fill Missing Cells</jm:caption>
+      <jm:action type="text">Names Default To Here(1);
+Include("$ADDIN_HOME(jthi.jmp.tools.fill.missing.cells)/fill_missing_cells_gui.jsl");</jm:action>
+      <jm:icon type="builtin">OrderBy</jm:icon>
+    </jm:command>
+    <jm:command>
+      <jm:name>JOIN NEAREST ROWS</jm:name>
+      <jm:caption>Join Nearest Rows</jm:caption>
+      <jm:action type="text">Names Default To Here(1);
+Include("$ADDIN_HOME(jthi.jmp.tools.join.nearest.rows)/join_nearest_rows_gui.jsl");</jm:action>
+      <jm:icon type="builtin">Update</jm:icon>
+    </jm:command>
+	<jm:command>
+      <jm:name>GROUP LISTAGG COLUMNS</jm:name>
+      <jm:caption>Group Listagg Columns</jm:caption>
+      <jm:action type="text">Names Default To Here(1);
+Include("$ADDIN_HOME(jthi.jmp.tools.group.listagg.columns)/group_listagg_columns_gui.jsl");</jm:action>
+      <jm:icon type="builtin">Summary</jm:icon>
+    </jm:command>
+    <jm:separator/>
+	<jm:command>
+      <jm:name>ANALYZE COLUMNS</jm:name>
+      <jm:caption>Analyze Columns</jm:caption>
+      <jm:action type="text">Names Default To Here(1);
+Include("$ADDIN_HOME(jthi.jmp.tools.analyze.columns)/analyze_columns.jsl");</jm:action>
+      <jm:icon type="builtin">Tabulate</jm:icon>
+    </jm:command>
+    <jm:command>
+      <jm:name>SCRIPT LAUNCHER</jm:name>
+      <jm:caption>Script Launcher</jm:caption>
+      <jm:action type="text">Names Default To Here(1);
+Include("$ADDIN_HOME(jthi.jmp.tools.script.launcher)/script_launcher.jsl");</jm:action>
+      <jm:icon type="builtin">RunExample</jm:icon>
+    </jm:command>
+    <jm:separator/>
+  </jm:toolbar>
+</jm:menu_and_toolbar_customizations>
